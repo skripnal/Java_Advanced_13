@@ -1,0 +1,51 @@
+2023-12-29 21:58:20 DEBUG EntityPrinter:117 - ua.skripnal.model.Product{subCategory=iPhone, imagePath=images/iphone_15.jpg, price=42499.0, name=iPhone 15, description=З iPhone 15 ви отримуєте Dynamic Island, основну камеру 48 Мп та USB-C - і все це в міцному корпусі із прокольорованого скла та алюмінію., id=1, category=Смартфон, createDate=2023-12-08T19:23:13}
+2023-12-29 21:58:20 DEBUG SQL:144 - delete from bucket where id=?
+2023-12-29 21:58:20 DEBUG LogicalConnectionManagedImpl:174 - Initiating JDBC connection release from afterTransaction
+2023-12-29 21:58:20 DEBUG LogicalConnectionManagedImpl:174 - Initiating JDBC connection release from afterTransaction
+2023-12-29 21:58:20 DEBUG SQL:144 - select bucket0_.id as col_0_0_, product1_.id as col_1_0_, product1_.name as col_2_0_, product1_.description as col_3_0_, product1_.price as col_4_0_, product1_.category as col_5_0_, product1_.sub_category as col_6_0_, product1_.create_date as col_7_0_, product1_.image_path as col_8_0_ from bucket bucket0_ inner join product product1_ on (bucket0_.product_id=product1_.id) where bucket0_.user_id=?
+2023-12-29 21:58:20 DEBUG Loader:384 - Result set row: 0
+2023-12-29 21:58:20 DEBUG Loader:1595 - Result row: 
+2023-12-29 21:58:20 DEBUG Loader:384 - Result set row: 1
+2023-12-29 21:58:20 DEBUG Loader:1595 - Result row: 
+2023-12-29 21:58:20 DEBUG LogicalConnectionManagedImpl:174 - Initiating JDBC connection release from afterTransaction
+2023-12-29 21:58:20 DEBUG TransactionImpl:81 - begin
+2023-12-29 21:58:20 DEBUG TransactionImpl:98 - committing
+2023-12-29 21:58:20 DEBUG AbstractFlushingEventListener:140 - Processing flush-time cascades
+2023-12-29 21:58:20 DEBUG AbstractFlushingEventListener:193 - Dirty checking collections
+2023-12-29 21:58:20 DEBUG AbstractFlushingEventListener:114 - Flushed: 0 insertions, 0 updates, 1 deletions to 8 objects
+2023-12-29 21:58:20 DEBUG AbstractFlushingEventListener:121 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2023-12-29 21:58:20 DEBUG EntityPrinter:110 - Listing entities:
+2023-12-29 21:58:20 DEBUG EntityPrinter:117 - ua.skripnal.model.Bucket{addedDate=2023-12-29T21:58:08.888, productId=6, id=16, userId=1}
+2023-12-29 21:58:20 DEBUG EntityPrinter:117 - ua.skripnal.model.User{firstName=Користувач1, lastName=1, password=1, role=USER, id=1, email=user1@gmail.com, createDate=2023-12-08T18:11:29}
+2023-12-29 21:58:20 DEBUG EntityPrinter:117 - ua.skripnal.model.Product{subCategory=Xiaomi, imagePath=images/Xiaomi_13T_Pro.jpg, price=27999.0, name=Xiaomi 13T Pro, description=Смартфон Xiaomi 13T Pro відкриває нові горизонти продуктивності, швидкодії та енергоефективності. Завдяки акумулятору 5000 мАг та підтримці надшвидкої зарядки потужністю 120 Вт ви назавжди забудете про дефіцит заряду. Оптична стабілізація зображення та фільтри Leica забезпечують неперевершену якість знімків. 6,67-дюймовий 1.5К OLED дисплей з адаптивною частотою оновлення до 144 Гц та підтримкою HDR 10+ відтворює живе яскраве зображення. Потужний процесор MediaTek Dimensity 9200+ пропонує по-справжньому високу продуктивність під час вирішення будь-яких завдань., id=6, category=Смартфон, createDate=2023-12-09T22:38:35}
+2023-12-29 21:58:20 DEBUG EntityPrinter:117 - ua.skripnal.model.Product{subCategory=Samsung, imagePath=images/samsung_galaxy_s23_ultra.jpg, price=55999.0, name=Samsung Galaxy S23 Ultra, description=Samsung Galaxy S23 Ultra. Зустрічайте новий смартфон Galaxy S23 Ultra, створений із турботою про довкілля і оснащений вбудованим пером S Pen, камерою із нічною зйомкою й потужним процесором для грандіозних ігор., id=4, category=Смартфон, createDate=2023-12-09T17:17:21}
+2023-12-29 21:58:20 DEBUG EntityPrinter:117 - ua.skripnal.model.Product{subCategory=Samsung, imagePath=images/samsung_galaxy_s22.jpg, price=24599.0, name=Samsung Galaxy S22, description=З Galaxy S22 кожен день особливий. Оцініть просунуту систему камер 50 Мп, адаптовану для нічної зйомки, суперздатності 4 нм процесора, приголомшливу автономність та новий погляд на надійність та питання особистої безпеки. Зустрічайте новий Galaxy S22., id=3, category=Смартфон, createDate=2023-12-09T17:16:18}
+2023-12-29 21:58:20 DEBUG EntityPrinter:117 - ua.skripnal.model.Bucket{addedDate=2023-12-29T21:58:08.288, productId=4, id=15, userId=1}
+2023-12-29 21:58:20 DEBUG EntityPrinter:117 - ua.skripnal.model.Product{subCategory=iPhone, imagePath=images/iphone_15_pro_max.jpg, price=63499.0, name=iPhone 15 Pro Max, description=iPhone 15 Pro виконано з титану та оснащено революційним чипом A17 Pro, кнопкою дії з можливістю налаштовування та ще універсальнішою системою камер Pro, id=2, category=Смартфон, createDate=2023-12-08T19:28:10}
+2023-12-29 21:58:20 DEBUG EntityPrinter:117 - ua.skripnal.model.Product{subCategory=iPhone, imagePath=images/iphone_15.jpg, price=42499.0, name=iPhone 15, description=З iPhone 15 ви отримуєте Dynamic Island, основну камеру 48 Мп та USB-C - і все це в міцному корпусі із прокольорованого скла та алюмінію., id=1, category=Смартфон, createDate=2023-12-08T19:23:13}
+2023-12-29 21:58:20 DEBUG SQL:144 - delete from bucket where id=?
+2023-12-29 21:58:20 DEBUG LogicalConnectionManagedImpl:174 - Initiating JDBC connection release from afterTransaction
+2023-12-29 21:58:20 DEBUG LogicalConnectionManagedImpl:174 - Initiating JDBC connection release from afterTransaction
+2023-12-29 21:58:20 DEBUG SQL:144 - select bucket0_.id as col_0_0_, product1_.id as col_1_0_, product1_.name as col_2_0_, product1_.description as col_3_0_, product1_.price as col_4_0_, product1_.category as col_5_0_, product1_.sub_category as col_6_0_, product1_.create_date as col_7_0_, product1_.image_path as col_8_0_ from bucket bucket0_ inner join product product1_ on (bucket0_.product_id=product1_.id) where bucket0_.user_id=?
+2023-12-29 21:58:20 DEBUG Loader:384 - Result set row: 0
+2023-12-29 21:58:20 DEBUG Loader:1595 - Result row: 
+2023-12-29 21:58:20 DEBUG LogicalConnectionManagedImpl:174 - Initiating JDBC connection release from afterTransaction
+2023-12-29 21:58:25 DEBUG TransactionImpl:81 - begin
+2023-12-29 21:58:25 DEBUG TransactionImpl:98 - committing
+2023-12-29 21:58:25 DEBUG AbstractFlushingEventListener:140 - Processing flush-time cascades
+2023-12-29 21:58:25 DEBUG AbstractFlushingEventListener:193 - Dirty checking collections
+2023-12-29 21:58:25 DEBUG AbstractFlushingEventListener:114 - Flushed: 0 insertions, 0 updates, 1 deletions to 7 objects
+2023-12-29 21:58:25 DEBUG AbstractFlushingEventListener:121 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2023-12-29 21:58:25 DEBUG EntityPrinter:110 - Listing entities:
+2023-12-29 21:58:25 DEBUG EntityPrinter:117 - ua.skripnal.model.Bucket{addedDate=2023-12-29T21:58:08.888, productId=6, id=16, userId=1}
+2023-12-29 21:58:25 DEBUG EntityPrinter:117 - ua.skripnal.model.User{firstName=Користувач1, lastName=1, password=1, role=USER, id=1, email=user1@gmail.com, createDate=2023-12-08T18:11:29}
+2023-12-29 21:58:25 DEBUG EntityPrinter:117 - ua.skripnal.model.Product{subCategory=Xiaomi, imagePath=images/Xiaomi_13T_Pro.jpg, price=27999.0, name=Xiaomi 13T Pro, description=Смартфон Xiaomi 13T Pro відкриває нові горизонти продуктивності, швидкодії та енергоефективності. Завдяки акумулятору 5000 мАг та підтримці надшвидкої зарядки потужністю 120 Вт ви назавжди забудете про дефіцит заряду. Оптична стабілізація зображення та фільтри Leica забезпечують неперевершену якість знімків. 6,67-дюймовий 1.5К OLED дисплей з адаптивною частотою оновлення до 144 Гц та підтримкою HDR 10+ відтворює живе яскраве зображення. Потужний процесор MediaTek Dimensity 9200+ пропонує по-справжньому високу продуктивність під час вирішення будь-яких завдань., id=6, category=Смартфон, createDate=2023-12-09T22:38:35}
+2023-12-29 21:58:25 DEBUG EntityPrinter:117 - ua.skripnal.model.Product{subCategory=Samsung, imagePath=images/samsung_galaxy_s23_ultra.jpg, price=55999.0, name=Samsung Galaxy S23 Ultra, description=Samsung Galaxy S23 Ultra. Зустрічайте новий смартфон Galaxy S23 Ultra, створений із турботою про довкілля і оснащений вбудованим пером S Pen, камерою із нічною зйомкою й потужним процесором для грандіозних ігор., id=4, category=Смартфон, createDate=2023-12-09T17:17:21}
+2023-12-29 21:58:25 DEBUG EntityPrinter:117 - ua.skripnal.model.Product{subCategory=Samsung, imagePath=images/samsung_galaxy_s22.jpg, price=24599.0, name=Samsung Galaxy S22, description=З Galaxy S22 кожен день особливий. Оцініть просунуту систему камер 50 Мп, адаптовану для нічної зйомки, суперздатності 4 нм процесора, приголомшливу автономність та новий погляд на надійність та питання особистої безпеки. Зустрічайте новий Galaxy S22., id=3, category=Смартфон, createDate=2023-12-09T17:16:18}
+2023-12-29 21:58:25 DEBUG EntityPrinter:117 - ua.skripnal.model.Product{subCategory=iPhone, imagePath=images/iphone_15_pro_max.jpg, price=63499.0, name=iPhone 15 Pro Max, description=iPhone 15 Pro виконано з титану та оснащено революційним чипом A17 Pro, кнопкою дії з можливістю налаштовування та ще універсальнішою системою камер Pro, id=2, category=Смартфон, createDate=2023-12-08T19:28:10}
+2023-12-29 21:58:25 DEBUG EntityPrinter:117 - ua.skripnal.model.Product{subCategory=iPhone, imagePath=images/iphone_15.jpg, price=42499.0, name=iPhone 15, description=З iPhone 15 ви отримуєте Dynamic Island, основну камеру 48 Мп та USB-C - і все це в міцному корпусі із прокольорованого скла та алюмінію., id=1, category=Смартфон, createDate=2023-12-08T19:23:13}
+2023-12-29 21:58:25 DEBUG SQL:144 - delete from bucket where id=?
+2023-12-29 21:58:25 DEBUG LogicalConnectionManagedImpl:174 - Initiating JDBC connection release from afterTransaction
+2023-12-29 21:58:25 DEBUG LogicalConnectionManagedImpl:174 - Initiating JDBC connection release from afterTransaction
+2023-12-29 21:58:25 DEBUG SQL:144 - select bucket0_.id as col_0_0_, product1_.id as col_1_0_, product1_.name as col_2_0_, product1_.description as col_3_0_, product1_.price as col_4_0_, product1_.category as col_5_0_, product1_.sub_category as col_6_0_, product1_.create_date as col_7_0_, product1_.image_path as col_8_0_ from bucket bucket0_ inner join product product1_ on (bucket0_.product_id=product1_.id) where bucket0_.user_id=?
+2023-12-29 21:58:25 DEBUG LogicalConnectionManagedImpl:174 - Initiating JDBC connection release from afterTransaction

@@ -1,0 +1,26 @@
+2023-12-29 21:58:26 INFO  ProductServiceImpl:42 - ProductServiceImpl -> readAll
+2023-12-29 21:58:26 DEBUG SQL:144 - select product0_.id as id1_1_, product0_.category as category2_1_, product0_.create_date as create_d3_1_, product0_.description as descript4_1_, product0_.image_path as image_pa5_1_, product0_.name as name6_1_, product0_.price as price7_1_, product0_.sub_category as sub_cate8_1_ from product product0_
+2023-12-29 21:58:26 DEBUG Loader:384 - Result set row: 0
+2023-12-29 21:58:26 DEBUG Loader:1595 - Result row: EntityKey[ua.skripnal.model.Product#1]
+2023-12-29 21:58:26 DEBUG Loader:384 - Result set row: 1
+2023-12-29 21:58:26 DEBUG Loader:1595 - Result row: EntityKey[ua.skripnal.model.Product#2]
+2023-12-29 21:58:26 DEBUG Loader:384 - Result set row: 2
+2023-12-29 21:58:26 DEBUG Loader:1595 - Result row: EntityKey[ua.skripnal.model.Product#3]
+2023-12-29 21:58:26 DEBUG Loader:384 - Result set row: 3
+2023-12-29 21:58:26 DEBUG Loader:1595 - Result row: EntityKey[ua.skripnal.model.Product#4]
+2023-12-29 21:58:26 DEBUG Loader:384 - Result set row: 4
+2023-12-29 21:58:26 DEBUG Loader:1595 - Result row: EntityKey[ua.skripnal.model.Product#6]
+2023-12-29 21:58:26 DEBUG LogicalConnectionManagedImpl:174 - Initiating JDBC connection release from afterTransaction
+2023-12-29 21:58:28 INFO  ProductServiceImpl:42 - ProductServiceImpl -> readAll
+2023-12-29 21:58:28 DEBUG SQL:144 - select product0_.id as id1_1_, product0_.category as category2_1_, product0_.create_date as create_d3_1_, product0_.description as descript4_1_, product0_.image_path as image_pa5_1_, product0_.name as name6_1_, product0_.price as price7_1_, product0_.sub_category as sub_cate8_1_ from product product0_
+2023-12-29 21:58:28 DEBUG Loader:384 - Result set row: 0
+2023-12-29 21:58:28 DEBUG Loader:1595 - Result row: EntityKey[ua.skripnal.model.Product#1]
+2023-12-29 21:58:28 DEBUG Loader:384 - Result set row: 1
+2023-12-29 21:58:28 DEBUG Loader:1595 - Result row: EntityKey[ua.skripnal.model.Product#2]
+2023-12-29 21:58:28 DEBUG Loader:384 - Result set row: 2
+2023-12-29 21:58:28 DEBUG Loader:1595 - Result row: EntityKey[ua.skripnal.model.Product#3]
+2023-12-29 21:58:28 DEBUG Loader:384 - Result set row: 3
+2023-12-29 21:58:28 DEBUG Loader:1595 - Result row: EntityKey[ua.skripnal.model.Product#4]
+2023-12-29 21:58:28 DEBUG Loader:384 - Result set row: 4
+2023-12-29 21:58:28 DEBUG Loader:1595 - Result row: EntityKey[ua.skripnal.model.Product#6]
+2023-12-29 21:58:28 DEBUG LogicalConnectionManagedImpl:174 - Initiating JDBC connection release from afterTransaction
